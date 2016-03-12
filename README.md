@@ -3,7 +3,7 @@
 Kingston Mobilelite Wireless G3
 
 #### Telnet
-Create a file with the name 'mlwG3_v;telnetd; .x.x.bin' at the root level (USB-Stick ord SD-Card)
+Create a file with the name 'mlwG3_v;telnetd; .x.x.bin' at the root level (USB-Stick or SD-Card)
 Plug it in and start the device.
 
 Login as 'admin'
