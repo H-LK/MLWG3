@@ -89,6 +89,8 @@ mtd3: 007b0000 00010000 "KernelA"
 mtd4: 007b0000 00010000 "KernelB"
 mtd5: 00050000 00010000 "User_CFG"
 ```
+#### Serial port @ 57600
+![alt tag](https://github.com/H-LK/MLWG3/blob/master/serial.jpg)
 
 #### bootlog
 ```
