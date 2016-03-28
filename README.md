@@ -453,3 +453,32 @@ Enter 'help' for a list of built-in commands.
 #### PCB
 ![alt tag](https://github.com/H-LK/MLWG3/blob/master/pcbtop.jpg)
 ![alt tag](https://github.com/H-LK/MLWG3/blob/master/pcbbottom.jpg)
+
+#### SWCONFIG
+```
+swconfig dev switch0 help
+switch0: rt305x(rt305x-esw), ports: 7 (cpu @ 6), vlans: 4096
+     --switch
+	Attribute 1 (int): enable_vlan (VLAN mode (1:enabled))
+	Attribute 2 (int): alternate_vlan_disable (Use en_vlan instead of doubletag to disable VLAN mode)
+	Attribute 3 (int): bc_storm_protect (Global broadcast storm protection (0:Disable, 1:64 blocks, 2:96 blocks, 3:128 blocks))
+	Attribute 4 (int): led_frequency (LED Flash frequency (0:30mS, 1:60mS, 2:240mS, 3:480mS))
+	Attribute 5 (none): apply (Activate changes in the hardware)
+	Attribute 6 (none): reset (Reset the switch)
+     --vlan
+	Attribute 1 (ports): ports (VLAN port mapping)
+     --port
+	Attribute 1 (int): disable (Port state (1:disabled))
+	Attribute 2 (int): doubletag (Double tagging for incoming vlan packets (1:enabled))
+	Attribute 3 (int): untag (Untag (1:strip outgoing vlan tag))
+	Attribute 4 (int): led (LED mode (0:link, 1:100m, 2:duplex, 3:activity, 4:collision, 5:linkact, 6:duplcoll, 7:10mact, 8:100mact, 10:blink, 11:off, 12:on))
+	Attribute 5 (int): lan (HW port group (0:wan, 1:lan))
+	Attribute 6 (int): recv_bad (Receive bad packet counter)
+	Attribute 7 (int): recv_good (Receive good packet counter)
+	Attribute 8 (int): tr_bad (Transmit bad packet counter. rt5350 only)
+	Attribute 9 (int): tr_good (Transmit good packet counter. rt5350 only)
+	Attribute 10 (int): pvid (Primary VLAN ID)
+	Attribute 11 (unknown): link (Get port link information)
+
+
+```
