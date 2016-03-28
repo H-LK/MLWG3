@@ -14,7 +14,7 @@
 	pinctrl {
 		state_default: pinctrl0 {
 			gpio {
-				ralink,group = "refclk", "wled", "gpio";
+				ralink,group = "refclk", "gpio";
 				ralink,function = "gpio";
 			};
 		};
